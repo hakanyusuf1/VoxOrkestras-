@@ -1,0 +1,51 @@
+.clientsReview h2 {
+  text-align: center;
+  margin: -25px 0 50px;
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+.client-title {
+  margin-bottom: 20px;
+}
+
+.checked-star {
+  color: gold;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.profile-card h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.avatar-profile img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.team-img-box {
+  width: 300px;
+  height: 450px;
+}
+
+.team-img {
+  object-fit: cover;
+  max-width: 300px;
+  height: 450px;
+}
